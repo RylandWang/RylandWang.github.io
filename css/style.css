@@ -1,0 +1,37 @@
+body {
+    background-color: #2d0922;
+    font-family: 'Roboto Mono', monospace;
+    overflow-x:hidden;
+  }
+  
+  #terminal{
+    margin: 45px;
+  
+  }
+  
+  .username {
+    color: #78c131;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .directory {
+    color: #81aed7;
+  }
+  
+  .ls {
+    color: #2aa198
+  }
+  
+  .link{
+    color: #ffad68;
+  }
+  
+  .input {
+    background-color: transparent;
+    border: none;
+    outline:none;
+    color: #fdf6e3;
+  }
