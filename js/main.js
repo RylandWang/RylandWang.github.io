@@ -1,7 +1,7 @@
 const GITHUB_URL = "https://github.com/RylandWang"
 const LINKEDIN_URL = "https://www.linkedin.com/in/ryland-w/"
 const EMAIL = "ryland.wang@utoronto.ca"
-const ABOUT = "Hi, I'm Ryland Wang. I'm a sentient lifeform and I study computer science at University of Toronto. When I'm not spending quality time with my computer, I like to walk, play chess, guitar, and read science fiction."
+const ABOUT = "Hi, I'm Ryland Wang. I'm a 4th year computer science student at University of Toronto. When I'm not spending quality time with my computer, I like to walk, play chess, guitar, and read science fiction."
 
 const inputHTML = `<div class="row">
     <span class="username">ryland@machine</span><span class="white">:</span><span
@@ -61,6 +61,10 @@ const inputEventHandler = e => {
                 else if (file == "email") {
                     terminal.append(createElementFromHTML('<div ><a href=mailto:"' + EMAIL + '">' + EMAIL + '</a></div>'))
                 }
+                // else if (file == "resume") {
+                //     terminal.append(createElementFromHTML('<div ><a href="' + RESUME + '">' + RESUME + '</a></div>'))
+
+                // }
             }
             // terminal.append()
         }
