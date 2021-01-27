@@ -4,7 +4,7 @@ const EMAIL = "ryland.wang@utoronto.ca"
 const ABOUT = "Hi, I'm Ryland Wang. I’m a 4th year computer science student at the University of Toronto, with internship experiences as machine learning engineer and software developer. When I’m not spending quality time with my computer, I like to read, walk, and try to improve my slightly-below-mediocre guitar skills and my mediocre chess skills."
 
 const inputHTML = `<div class="row">
-    <span class="username">ryland@machine</span><span class="white">:</span><span
+    <span class="username">ryland@portfolio-cli</span><span class="white">:</span><span
         class="directory">~</span><span class="white">$</span> &nbsp;
     <span><input type="email" class="input" id="input" autocorrect="off" autocapitalize="none"></span>
     </div>`
