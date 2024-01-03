@@ -1,7 +1,7 @@
 const GITHUB_URL = "https://github.com/RylandWang"
 const LINKEDIN_URL = "https://www.linkedin.com/in/ryland-w/"
 const EMAIL = "ryland.wang@utoronto.ca"
-const ABOUT = "Greetings, I'm Ryland Wang, a 4th year computer science student at the University of Toronto. I have completed internships in machine learning engineering and software development, where I prototyped machine learning models and built full-stack web applications. When I’m not spending quality time with my computer, I like to read, walk, and occasionally try to improve my slightly-below-mediocore skills in guitar and chess."
+const ABOUT = "Welcome! This is a safe and cozy place. Please feel free to stay for as long as you'd like."
 
 const inputHTML = `<div class="row">
     <span class="username">ryland@portfolio-cli</span><span class="white">:</span><span
