@@ -1,7 +1,6 @@
 const GITHUB_URL = "https://github.com/RylandWang"
 const LINKEDIN_URL = "https://www.linkedin.com/in/ryland-w/"
-const EMAIL = "ryland.wang@utoronto.ca"
-const ABOUT = "Welcome! This is a safe and cozy place. Please feel free to stay for as long as you'd like."
+const EMAIL = "rylandwang@gmail.com"
 
 const inputHTML = `<div class="row">
     <span class="username">ryland@portfolio-cli</span><span class="white">:</span><span
@@ -14,6 +13,11 @@ const helpHTML = `<div>
     <div class="white">ls - Display all files and directories</div>
     <div class="white">cat &lt;file&gt; - Display the contents of the specified file</div>
     <div class="white">help - Display the list of commands</div>
+    </div>`
+
+const aboutHTML = `<div>
+    <div class="white">Welcome! This is a safe and cozy place. Please feel free to stay for as long as you'd like.</div>
+    <div class="white">My name is <a href="https://www.linkedin.com/in/ryland-w/">Ryland</a>. I'm a Software Engineer at Google, working on building machine learning models to detect fraudulent actors at scale. In my free time, I like exploring the human mind through reading psychology or thinking about questions of existence with philosophy.</div>
     </div>`
 
 const lsHTML = `<div class="directory">about github linkedin email</div>`
@@ -50,7 +54,7 @@ const inputEventHandler = e => {
             if (values.length > 1) {
                 const file = values[1]
                 if (file == "about") {
-                    terminal.append(createElementFromHTML('<div class="white">' + ABOUT + '</div>'))
+                    terminal.append(createElementFromHTML(aboutHTML))
                 }
                 else if (file == "github") {
                     terminal.append(createElementFromHTML('<div ><a href="' + GITHUB_URL + '">' + GITHUB_URL + '</a></div>'))
