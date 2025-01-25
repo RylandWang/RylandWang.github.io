@@ -17,7 +17,7 @@ const helpHTML = `<div>
 
 const aboutHTML = `<div>
     <div class="white">Welcome! This is a safe and cozy place. Please feel free to stay for as long as you'd like.</div>
-    <div class="white">My name is <a href="https://www.linkedin.com/in/ryland-w/">Ryland</a>. I'm a Software Engineer at Google, working on building machine learning models to detect fraudulent actors at scale. In my free time, I like exploring the human mind through reading psychology or thinking about questions of existence with philosophy.</div>
+    <div class="white">My name is <a href="https://www.linkedin.com/in/ryland-w/">Ryland</a>. I'm a Software Engineer at Google, working on building machine learning models to detect fraudulent actors at scale.</div>
     </div>`
 
 const lsHTML = `<div class="directory">about github linkedin email</div>`
